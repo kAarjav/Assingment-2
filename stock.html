@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Summary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <p>Stock Search</p>
+</div>
+
+<div class="search-box">
+    <button class="search-btn" type="submit">
+        <span class="icon">
+            <img src="Screenshot (67).png" alt="Search">
+        </span>
+    </button>
+    <input type="text" placeholder="Enter Stock Ticker Symbol" oninput="clearBtnVisibility(this)">
+    <button class="clear-btn" type="button" onclick="clearSearch()" style="display: none;">
+        <span class="icon">
+            <img src="Screenshot (68).png" alt="Clear">
+        </span>
+    </button>
+</div>
+
+          <div class="container">
+              <div class="tabs">
+                  <button class="tab">Company</button>
+                  <button class="tab">Stock Summary</button>
+                  <button class="tab">Charts</button>
+                  <button class="tab">Latest News</button>
+              </div>
+              <div class="stock-info">
+                  <div class="horizontal-line"></div>
+                  <p><strong>Stock Ticker Symbol</strong> AAPL</p>
+                  <div class="horizontal-line"></div>
+                  <p><strong>Trading Day</strong> 19 January, 2024</p>
+                  <div class="horizontal-line"></div>
+                  <p><strong>Previous Closing Price</strong> 188.63</p>
+                  <div class="horizontal-line"></div>
+                  <p><strong>Opening Price</strong> 189.33</p>
+                  <div class="horizontal-line"></div>
+                  <p><strong>High Price</strong> 191.95</p>
+                  <div class="horizontal-line"></div>
+                  <p><strong>Low Price</strong> 188.8</p>
+                  <div class="horizontal-line"></div>
+                  <p><strong>Change</strong> 2.93 <span class="up-arrow">▲</span></p>
+                  <div class="horizontal-line"></div>
+                  <p><strong>Change percent</strong>  1.5533% <span class="up-arrow">▲</span></p>
+                  <div class="horizontal-line"></div>
+                  <div class="recommendation-trends">
+                      <span class="strong-sell">Strong Sell <span class="count strong-sell-bg">0</span></span>
+                      <span class="count sell-bg">1</span>
+                      <span class="count hold-bg">13</span>
+                      <span class="count buy-bg">22</span>
+                      <span class="count bg">12 </span><span class="strong-buy">Strong Buy </span>
+                  </div>
+                  <p class="recommendation">Recommendation Trends</p>
+              </div>
+          </div>
+
+</body>
+</html>

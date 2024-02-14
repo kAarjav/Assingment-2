@@ -1,0 +1,209 @@
+*{
+  margin-left: 0;
+  margin-right: 0;
+}
+body{
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search-box {
+  position: relative;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+  .search-box input[type="text"] {
+    width: 100%;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .search-box .search-btn {
+    position: absolute;
+    top: 55%;
+    left: 10px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .search-box .clear-btn {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .search-box .icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+  }
+  .search-box .icon img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 60%;
+    text-align: center;
+}
+
+.tabs {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.tab {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.company-info {
+    margin-top: 20px;
+}
+
+.company-logo {
+    width: 100px;
+    margin: 20px auto;
+    display: block;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+.horizontal-line {
+  height: 1px; 
+  width: 500px;
+  background-color: gainsboro;
+}
+
+.tab.active {
+  background-color: #ccc;
+}
+
+.stock-info {
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.up-arrow {
+  color: green;
+}
+
+.recommendation-trends {
+  margin-top: 20px;
+}
+
+.count {
+  padding:  10px;
+  color: #fff;
+}
+.strong-sell{
+  color: #ff4d4d;
+}
+.strong-buy{
+  margin-left: 5px;
+  color: #009900;
+}
+.strong-sell-bg {background-color: #ff4d4d;}
+.sell-bg { background-color: #ff6666; }
+.hold-bg { background-color: #ffcc00; }
+.buy-bg { background-color: #99cc00; }
+.bg { background-color: #009900; }
+
+.recommendation{
+  padding-top: 20px;
+}
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.news-container {
+  width: 80%;
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.news-item {
+  background: gainsboro;
+  margin-bottom: 20px;
+  width: 200%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for each item */
+  display: flex;
+  align-items: center;
+}
+
+.news-item img {
+  width: 150px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.news-content {
+  padding: 15px;
+}
+
+.news-content h2 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.news-content .date {
+  font-size: 14px;
+  color: #666;
+}
+
+.news-content .original-post {
+  font-size: 14px;
+  color: #1a0dab; /* Similar to hyperlink color */
+  text-decoration: none;
+}
+
+.news-content .original-post:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <p>Stock Search</p>
+    </div>
+
+    <div class="search-box">
+        <button class="search-btn" type="submit">
+            <span class="icon">
+                <img src="Screenshot (67).png" alt="Search">
+            </span>
+        </button>
+
+        <input type="text" placeholder="Enter Stock Ticker Symbol" oninput="clearBtnVisibility(this)">
+        <button class="clear-btn" type="button" onclick="clearSearch()" style="display: none;">
+            <span class="icon">
+                <img src="Screenshot (68).png" alt="Clear">
+            </span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="tabs">
+            <button class="tab">Company</button>
+            <button class="tab">Stock Summary</button>
+            <button class="tab">Charts</button>
+            <button class="tab">Latest News</button>
+        </div>
+
+        <div class="news-container">
+            <article class="news-item">
+                <img src="warren-buffett.jpg" alt="Warren Buffett">
+                <div class="news-content">
+                    <h2>Warren Buffett Is Set to Make $2 Billion in Dividend Income in 2024 From Just 3 Stocks</h2>
+                    <p class="date">21 January, 2024</p>
+                    <a href="#" class="original-post">See Original Post</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+</html>

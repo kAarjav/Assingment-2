@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Stock</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <div class="header">
+            <p>Stock Search</p>
+        </div>
+
+        <div class="search-box">
+            <button class="search-btn" type="submit">
+              <span class="icon">
+                <img src="Screenshot (67).png" alt="Search">
+              </span>
+            </button>
+
+
+            <input type="text" placeholder="Enter Stock Ticker Symbol" oninput="clearBtnVisibility(this)">
+            <button class="clear-btn" type="button" onclick="clearSearch()" style="display: none;">
+              <span class="icon">
+                <img src="Screenshot (68).png" alt="Clear">
+              </span>
+            </button>
+
+
+            <div class="container">
+                <div class="tabs">
+                    <button class="tab">Company</button>
+                    <button class="tab">Stock Summary</button>
+                    <button class="tab">Charts</button>
+                    <button class="tab">Latest News</button>
+                </div>
+                <div class="company-info">
+                    <img src="wp3453790.webp" alt="Apple Logo" class="company-logo">
+                    <div class="horizontal-line"></div>
+                    <p><strong>Company Name:</strong> Apple Inc</p>
+                    <div class="horizontal-line"></div>
+                    <p><strong>Stock Ticker Symbol:</strong> AAPL</p>
+                    <div class="horizontal-line"></div>
+                    <p><strong>Stock Exchange Code:</strong> NASDAQ NMS - GLOBAL MARKET</p>
+                    <div class="horizontal-line"></div>
+                    <p><strong>Company Start Date:</strong> 1980-12-12</p>
+                    <div class="horizontal-line"></div>
+                    <p><strong>Category:</strong> Technology</p>
+                    <div class="horizontal-line"></div>
+                </div>
+            </div>
+
+
+
+    </body>
+</html>
+
+
+
+
+
+
+<script src="script.js"></script>

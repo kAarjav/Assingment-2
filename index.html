@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Stock</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <div class="header">
+            <p>Stock Search</p>
+        </div>
+
+        <div class="search-box">
+            <button class="search-btn" type="submit">
+              <span class="icon">
+                <img src="Screenshot (67).png" alt="Search">
+              </span>
+            </button>
+
+
+            <input type="text" placeholder="Enter Stock Ticker Symbol" oninput="clearBtnVisibility(this)">
+            <button class="clear-btn" type="button" onclick="clearSearch()" style="display: none;">
+              <span class="icon">
+                <img src="Screenshot (68).png" alt="Clear">
+              </span>
+            </button>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+<script src="script.js"></script>
